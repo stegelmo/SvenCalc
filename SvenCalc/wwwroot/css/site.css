@@ -1,0 +1,33 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*.text-danger {
+    display: inline-block;
+}*/
+
+
+/* Stylar radioknapparna likt knappar */
+/* Om inte specen specifikt sagt radioknappar och en submitknapp hade jag ersatt detta med fyra submitknappar för de olika räknesätten istället*/
+
+form input[type="radio"] {
+    display: none;
+}
+
+form input[type="radio"] + label {
+    padding: 5px 10px;
+}
+
+form input[type="radio"]:hover + label {
+    border: 1px dotted gray;
+}
+
+form input[type="radio"]:checked + label {
+    border: 1px solid gray;
+}
